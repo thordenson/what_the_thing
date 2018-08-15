@@ -31,7 +31,7 @@ const yandexGetTranslate = `https://translate.yandex.net/api/v1.5/tr.json/transl
 // Clarifai, for image recognition
 const Clarifai = require('clarifai');
 
-const app = new Clarifai.App(apiKeys.clarifaiID, apiKeys.clarifaiSecret);
+const app = new Clarifai.App(apiKeys.clarifaiKey);
 
 const whiteColor = '#E8EAF6CC';
 const transparent = '#00000000';
@@ -83,7 +83,7 @@ export default class what_the_thing extends Component {
           });
         } else {
           this.setState({
-            translateLang: 'hi', // default lang set to hindi
+            translateLang: 'en', // default lang set to english
           });
         }
       });
@@ -100,7 +100,7 @@ export default class what_the_thing extends Component {
             ToastAndroid.CENTER,
           );
         } else {
-          this.setLang('hi', 'Hindi'); // default set to Hindi
+          this.setLang('en', 'English'); // default set to english
         }
       });
     } catch (error) {
@@ -407,15 +407,6 @@ export default class what_the_thing extends Component {
               <Text style={[styles.infoText, { fontSize: 15 }]}>
                 Point camera at things to learn how to say them in a different language
                 {'\n\n'}
-              </Text>
-            </View>
-            <View>
-              <Text
-                style={[styles.infoText, { fontSize: 15, color: 'blue' }]}
-                onPress={() =>
-                  Linking.openURL('https://github.com/vigzmv/what_the_thing')}
-              >
-                Github:/vigzmv/what_the_thing
               </Text>
             </View>
           </Modal>

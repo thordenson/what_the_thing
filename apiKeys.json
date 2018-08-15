@@ -1,5 +1,4 @@
 {
-  "clarifaiID": "your Clarifai app ID",
-  "clarifaiSecret": "your Clarifai app secret",
+  "clarifaiKey": "1858b67e71194611af78d21d882989bf",
   "yandexTranslateKey": "ytrnsl.1.1.20180814T224932Z.3e6507af757be6be.a5e462da1831d522ce5d9b21bc10ccae85b25784"
 }
