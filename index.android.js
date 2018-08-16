@@ -29,6 +29,8 @@ const yandexGetLang = `https://translate.yandex.net/api/v1.5/tr.json/getLangs?ke
 const yandexGetTranslate = `https://translate.yandex.net/api/v1.5/tr.json/translate?key=${yandexKey}`;
 
 // Clarifai, for image recognition
+console.log(Camera.Constants);
+
 const Clarifai = require('clarifai');
 
 const app = new Clarifai.App(apiKeys.clarifaiKey);
@@ -266,6 +268,7 @@ export default class what_the_thing extends Component {
   }
 
   render() {
+    console.log(Camera.Constants);
     return (
       <View style={styles.container}>
 
@@ -275,11 +278,11 @@ export default class what_the_thing extends Component {
             this.camera = cam;
           }}
           style={styles.preview}
-          aspect={Camera.constants.Aspect.fill}
-          type={Camera.constants.Type.back}
-          captureMode={Camera.constants.CaptureMode.still}
-          captureTarget={Camera.constants.CaptureTarget.memory}
-          captureQuality={Camera.constants.CaptureQuality.low}
+          aspect={Camera.Constants.Aspect.fill}
+          type={Camera.Constants.Type.back}
+          captureMode={Camera.Constants.CaptureMode.still}
+          captureTarget={Camera.Constants.CaptureTarget.memory}
+          captureQuality={Camera.Constants.CaptureQuality.low}
           playSoundOnCapture
         >
 

@@ -4,7 +4,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/thordenson/what_the_thing)  &nbsp;&nbsp;
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/thordenson/what_the_thing)
 
-Point camera at things to learn how to say them in a different language.
+What-the-thing is an app that demonstrates the simplicity and charm of harnessing modern machine learning techniques – namely, computer vision and natural language translation. Simply point at an object and select the prefered language to translate the name of the object.
 
 Native Android App built with [React Native](https://github.com/facebook/react-native).
 

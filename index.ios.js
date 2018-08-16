@@ -6,13 +6,13 @@
 
 import React, { Component } from 'react';
 import {
-  AppRegistry,
   StyleSheet,
   Text,
   View
 } from 'react-native';
 
-export default class what_the_thing extends Component {
+
+export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('what_the_thing', () => what_the_thing);
+
