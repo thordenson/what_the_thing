@@ -1,8 +1,8 @@
 # What the Thing ?
 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102)](https://github.com/vigzmv/Django-Users-boilerplate)  &nbsp;&nbsp;
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/vigzmv/Django-Users-boilerplate)  &nbsp;&nbsp;
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/vigzmv/Django-Users-boilerplate)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102)](https://github.com/what_the_thing)  &nbsp;&nbsp;
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/thordenson/what_the_thing)  &nbsp;&nbsp;
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/thordenson/what_the_thing)
 
 Point camera at things to learn how to say them in a different language.
 
@@ -15,6 +15,14 @@ Inspired by [Thing Translator](https://github.com/dmotz/thing-translator) by [dm
 ![ezgif-2-c2d47b51b0](https://cloud.githubusercontent.com/assets/14950089/24720723/b2305c4e-1a5b-11e7-8717-672866128ef0.gif)
 &nbsp;&nbsp;&nbsp;&nbsp;
 ![58e4ef22e1d7d646107794](https://cloud.githubusercontent.com/assets/14950089/24707372/ec7b4538-1a30-11e7-944d-98addd4ff146.gif)
+
+
+![](https://oxism.com/thing-translator/thing-translator.gif)
+
+![](https://oxism.com/thing-translator/img/1.jpg)
+
+![](https://oxism.com/thing-translator/img/2.jpg)
+
 
 ## How it works ?
 
@@ -34,7 +42,7 @@ Have a look at the [React-native Docs](https://facebook.github.io/react-native/d
 $ sudo npm install -g react-native-cli
 
 # Clone repository
-$ git clone https://github.com/vigzmv/what_the_thing.git
+$ git clone https://github.com/thordenson/what_the_thing.git
 $ cd what_the_thing
 
 ```
@@ -55,23 +63,6 @@ $ react-native start
 
 <hr/>
 
-For a build that doesn't reqire the development server:
-
-```sh
-
-# Bundle debug build
-$ react-native bundle --dev false --platform android --entry-file index.android.js --bundle-output ./android/app/build/intermediates/assets/debug/index.android.bundle --assets-dest ./android/app/build/intermediates/res/merged/debug
-
-# Create debug build
-$ cd android && ./gradlew assembleDebug
-
-# Generated apk will be located at android/app/build/outputs/apk. Install it with
-$ adb install app/build/outputs/apk/app-debug.apk
-
-```
-
-
-_I would be releasing a signed apk package soon which could be installed directly to device for usage._
 
 ## Contribute ?
 
