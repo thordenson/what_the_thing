@@ -72,11 +72,11 @@ $ react-native start
 
 
 ## Technologies Used
-### Team Tools
+### Tools
 ![git icon](readme-imgs/git.png) Git | ![github icon](readme-imgs/github.png) GitHub | ![atom icon](readme-imgs/atom.png) Atom | ![trello icon](readme-imgs/trello.png) Trello | Slack
 
 ### Back-End
-![postgres icon](readme-imgs/postgresql.png) PostgreSQL | Postico | ![node icon](readme-imgs/nodejs.png) Node.js | Express | ![heroku icon](readme-imgs/heroku.png) Heroku
+React | Postman | GoogleAPI | ![postgres icon](readme-imgs/postgresql.png) PostgreSQL | Postico | ![node icon](readme-imgs/nodejs.png) Node.js | Express | ![heroku icon](readme-imgs/heroku.png) Heroku
 
 ### Front-End
 ![html5 icon](readme-imgs/html5.png) HTML5 | ![css3 icon](readme-imgs/css3.png) CSS3 | ![javascript icon](readme-imgs/js_badge.png) JavaScript | ![materializecss icon](readme-imgs/materializecss.png) Materialize | ![sass icon](readme-imgs/sass.png) Sass
