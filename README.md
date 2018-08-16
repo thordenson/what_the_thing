@@ -1,6 +1,6 @@
 # What the Thing ?
 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102)](https://github.com/what_the_thing)  &nbsp;&nbsp;
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102)](https://github.com/thordenson/what_the_thing)  &nbsp;&nbsp;
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/thordenson/what_the_thing)  &nbsp;&nbsp;
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/thordenson/what_the_thing)
 
@@ -69,6 +69,21 @@ $ react-native start
 - Fork the repository
 - Commit your changes
 - Submit a pull request
+
+
+## Technologies Used
+### Team Tools
+![git icon](readme-imgs/git.png) Git | ![github icon](readme-imgs/github.png) GitHub | ![atom icon](readme-imgs/atom.png) Atom | ![trello icon](readme-imgs/trello.png) Trello | Slack
+
+### Back-End
+![postgres icon](readme-imgs/postgresql.png) PostgreSQL | Postico | ![node icon](readme-imgs/nodejs.png) Node.js | Express | ![heroku icon](readme-imgs/heroku.png) Heroku
+
+### Front-End
+![html5 icon](readme-imgs/html5.png) HTML5 | ![css3 icon](readme-imgs/css3.png) CSS3 | ![javascript icon](readme-imgs/js_badge.png) JavaScript | ![materializecss icon](readme-imgs/materializecss.png) Materialize | ![sass icon](readme-imgs/sass.png) Sass
+
+### Design
+![illustrator icon](readme-imgs/illustrator.png) Illustrator | ![photoshop icon](readme-imgs/photoshop.png) Photoshop
+
 
 ## Licence
 
